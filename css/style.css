@@ -114,6 +114,9 @@ address {
   background-color: #F4F4FD;
 }
 
+.team-card {
+  background-color: #FFFFFF;
+}
 .team-headers-style,
 .portfolio-headers-style {
   font-size: 36px;

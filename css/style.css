@@ -1,9 +1,117 @@
-body{
-  font-family: ;
-  color: ;
-  background-color: ;
+a,
+ul,
+ol {
+  text-decoration: none;
+  list-style-type: none;
 }
 
-a, li {
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #2E2F42;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a, ul, ol {
   text-decoration: none;
+  list-style-type: none;
+  color: #2E2F42;
+}
+
+header{
+  width: 1440px;
+  height: 72px;
+}
+
+.logo-web,
+.logo-studio {
+  font-family: "Raleway",sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4D5AE5;
+  line-height: 1.16;
+}
+
+.menu .logo-studio{
+  color: #2E2F42;
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0px;
+  }
+
+.contacts-link a {
+  font-style: none;
+  color: #434455;
+}
+
+address {
+  font-style: normal;
+}
+
+#greeting-section {
+  background-color: #2E2F42;
+}
+
+.main-header {
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.main-button {
+  width: 169px;
+  height: 56px;
+  background-color: #4D5AE5;
+  color: #FFFFFF;
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#company-skills ul h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+#company-skills p{
+  color: #434455;
+}
+
+#our-team {
+  background-color: #F4F4FD;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#our-team p {
+  color: #434455;
+}
+
+footer {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+}
+
+.logo-studio {
+  color: #FFFFFF;
 }

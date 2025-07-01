@@ -28,12 +28,10 @@ body{
 .link-logo:focus,
 .menu a:hover,
 .menu a:focus,
-.main-button:hover,
-.main-button:focus,
 .nav-link:hover,
 .nav-link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -86,6 +84,11 @@ address {
   cursor: pointer;
 }
 
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+}
+
 .company-skills-empty-header {
   font-size: 20px;
   line-height: 1.2;
@@ -98,12 +101,13 @@ address {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
+  background-color: #2E2F42;
 }
 
 .section-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #434455;
 
 }
@@ -112,7 +116,7 @@ address {
   background-color: #F4F4FD;
 }
 
-.h2-headers-style {
+.headers-h2-style {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -121,7 +125,7 @@ address {
   color: #2E2F42;
 }
 
-.h3-headers-style {
+.headers-h3-style {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -139,7 +143,7 @@ address {
 }
 
 .logo-studio {
-  color: #FFFFFF;
+  color: #f4f4fd;
 }
 
 .basement-text {
@@ -147,3 +151,5 @@ address {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+
